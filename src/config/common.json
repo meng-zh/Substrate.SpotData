@@ -1,0 +1,30 @@
+{
+  "SocketPort": 8080,
+  "BlockChainNode": "ws://192.168.0.201:9944",
+  "PongIntervalSeconds": 120000000,
+  "PriceDecimals": 12,
+  "Matches": [{
+      "Pair": "B/A",
+      "BaseDecimals": 6,
+      "TargetDecimals": 6,
+      "MatchIndex": "101"
+    },
+    {
+      "Pair": "C/A",
+      "BaseDecimals": 6,
+      "TargetDecimals": 6,
+      "MatchIndex": "102"
+    }
+  ],
+  "MatchEventSection": "spot",
+  "CreateBuyEventMethod": "CreateBuyOrder",
+  "CreateSellEventMethod": "CreateSellOrder",
+  "MatchResultEventMethod": "Match",
+  "CancelEventMethod": "CancelOrder",
+  "DBConfig": {
+    "host": "192.168.0.101",
+    "user": "root",
+    "password": "123456",
+    "database": "Spot-Dev"
+  }
+}

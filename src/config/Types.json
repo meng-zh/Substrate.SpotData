@@ -1,0 +1,35 @@
+{
+    "Text": "Vec<u8>",
+    "TokenInfo": {
+      "symbol": "Text",
+      "name": "Text",
+      "decimals": "u8",
+      "creator": "AccountId",
+      "enable": "bool"
+    },
+    "MatchInfo": {
+      "base": "u16",
+      "target": "u16",
+      "base_min": "u128",
+      "target_min": "u128",
+      "off_decimals": "u8",
+      "name": "Text",
+      "enable": "bool"
+    },
+    "MatchFee": {
+      "base_min_fee": "u128",
+      "base_fee_rate": "Perbill",
+      "target_min_fee": "u128",
+      "target_fee_rate": "Perbill"
+    },
+    "MatchOrder": {
+      "user": "AccountId",
+      "from": "u128",
+      "to": "u128",
+      "remain": "u128",
+      "handle": "u128",
+      "price": "u128",
+      "number": "Compact<BlockNumber>"
+    }
+  }
+  
